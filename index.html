@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Phone number formatter</title>
+
+        <!-- TODO: Edit css in the css file -->
+        <link href="style.css" media="all" rel="stylesheet"/>
+        <!-- end TODO -->
+    </head>
+    <body>
+	
+	<h1>Please Put your Phone Number in the Box below</h1> 
+	<form onsubmit = "return myKeyPress(this)">
+        <input type="text" id="my textbox element" value="" placeholder="Enter a phone number" onkeypress="formatPhoneNumber(this)" required><br><br>
+		<button onclick="myKeyPress(this)">Submit</button> <span id="message"> </span>
+		
+	
+    </form>
+	<h2>- Press "Submit" at any time to send your Phone Number<br><br> - Please put U.S. Phone Number</h2><br>
+	    <div class="image"> 
+		<img src="https://us.123rf.com/450wm/chaliya/chaliya1608/chaliya160800065/62241375-flat-design-style-hand-holding-smartphone-cartoon-illustration-.jpg?ver=6" width= 30%; alt=""> <img src="https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/2441879/4833/2878/m1/fpnw/wm1/us-flag-vector-.jpg?1490162892&s=c238941008d6a79d742292b61eb38c37" width= 50%; alt=""></div>
+    <h3>❤ Thank you so much ❤</h3>
+	<script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
+
+<!--
+CISC 3140 - Design and Implementation
+
+Professor: Katherine Chuang
+
+Student Name: Hiu Wing, Lam
+
+Emplid: 23626630
+
+Midterm 2- Part 2
+
+<input type="submit" value="Submit">
+-->

@@ -1,0 +1,62 @@
+
+body{
+	background-color: lightcyan;
+}
+
+/*TODO: The font is a monospaced font*/
+h1 {
+	font-family:monospace;
+	font-size: 35px;
+	color: midnightblue;
+}
+
+h2{
+	font-family:monospace;
+	font-size: 18px;
+	color: black;
+}
+
+h3{
+	text-align: center;
+	font-family:monospace;
+	font-size: 30px;
+	padding-bottom: 1em;
+	border-bottom: 2px solid midnightblue;
+}
+
+span{
+	font-family:monospace;
+	color: red;
+}
+
+
+input{
+	/*TODO: The input has only the bottom border*/
+	outline:0;
+	border-width: 0 0 3px;
+	text-align: center;
+	font-size: 28px; 
+	font-family:monospace;
+}
+
+button{
+    font-family:monospace;
+	font-size: 18px; 
+}
+
+/*
+CISC 3140 - Design and Implementation
+
+Professor: Katherine Chuang
+
+Student Name: Hiu Wing, Lam
+
+Emplid: 23626630
+
+Midterm 2- Part 2
+
+TODO: Style the input field so that at minimum ... 
+ 1. The input has only the bottom border
+ 2. The font is a monospaced font
+ (all other design decisions are up to you)
+*/
